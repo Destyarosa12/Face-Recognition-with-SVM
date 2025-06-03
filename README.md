@@ -14,24 +14,24 @@ Face recognition dilakukan dengan alur sebagai berikut:
 
 ## 📁 Struktur Folder
 face-recognition-svm/
--│
--├── preprocess_encode.py # Preprocessing data wajah dan menyimpan face encoding
--├── train.py # Melatih model SVM
--├── evaluated.py # Mengevaluasi model dengan data uji
--├── real_time.py # Real-time face recognition dengan webcam
--├── requirements.txt # Dependensi Python
--├── README.md # Deskripsi proyek
--│
--├── dataset/ # Dataset wajah (format: folder per orang)
--│ ├── Person1/
--│ ├── Person2/
--│ └── ...
--│
--├── encoded_faces/
--│ └── svm_model.pkl # Model SVM hasil pelatihan
--│
--└── evaluation_results/
--└── confusion_matrix.png # Hasil evaluasi visual berupa confusion matrix
+- │
+- ├── preprocess_encode.py # Preprocessing data wajah dan menyimpan face encoding
+- ├── train.py # Melatih model SVM
+- ├── evaluated.py # Mengevaluasi model dengan data uji
+- ├── real_time.py # Real-time face recognition dengan webcam
+- ├── requirements.txt # Dependensi Python
+- ├── README.md # Deskripsi proyek
+- │
+- ├── dataset/ # Dataset wajah (format: folder per orang)
+- │ ├── Person1/
+- │ ├── Person2/
+- │ └── ...
+- │
+- ├── encoded_faces/
+- │ └── svm_model.pkl # Model SVM hasil pelatihan
+- │
+- └── evaluation_results/
+- └── confusion_matrix.png # Hasil evaluasi visual berupa confusion matrix
 
 ---
 
