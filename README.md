@@ -75,7 +75,7 @@ Model yang telah dilatih disimpan dalam direktori `encoded_faces/svm_model.pkl` 
 
 Evaluasi dilakukan dengan menghitung akurasi dan menampilkan confusion matrix.  
 Berikut adalah hasil confusion matrix yang menunjukkan performa model pada data uji:
-Akurasi : 83%
+- Akurasi : 83%
 ![Confusion Matrix](confusion_matrix.png)
 
 ---
@@ -86,7 +86,6 @@ Akurasi : 83%
    ```bash
    git clone https://github.com/username/nama-repo.git
    cd nama-repo
-atau
 2. Install library
 ```bash
 pip install -r requirements.txt
