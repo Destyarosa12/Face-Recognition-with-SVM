@@ -41,4 +41,4 @@ Dataset wajah digunakan dalam format:
 - Setiap subfolder merepresentasikan satu orang.
 - Setiap folder berisi beberapa gambar wajah orang tersebut (.jpg/.png).
 
-📥 **Download dataset di sini**: [Google Drive - Dataset Wajah]([(https://drive.google.com/drive/folders/1OkNLJHocP_5kcjQxYAAroH6Fl1-YLJ8n?usp=sharing)])
+📥 **Download dataset di sini**: [Google Drive - Dataset Wajah(https://drive.google.com/drive/folders/1OkNLJHocP_5kcjQxYAAroH6Fl1-YLJ8n?usp=sharing)]
