@@ -5,7 +5,7 @@ Proyek ini merupakan implementasi face recognition menggunakan metode **Support 
 
 Face recognition dilakukan dengan alur sebagai berikut:
 1. Ekstraksi wajah dari dataset menggunakan deteksi wajah.
-2. Ekstraksi fitur menggunakan `face_recognition` (FaceNet encoding).
+2. Ekstraksi fitur menggunakan `face_recognition` (Face encoding).
 3. Pelatihan model klasifikasi menggunakan Support Vector Machine (SVM).
 4. Evaluasi performa model menggunakan metrik klasifikasi dan confusion matrix.
 5. Implementasi real-time face recognition melalui webcam.
@@ -14,24 +14,24 @@ Face recognition dilakukan dengan alur sebagai berikut:
 
 ## 📁 Struktur Folder
 face-recognition-svm/
-│
-├── preprocess_encode.py # Preprocessing data wajah dan menyimpan face encoding
-├── train.py # Melatih model SVM
-├── evaluated.py # Mengevaluasi model dengan data uji
-├── real_time.py # Real-time face recognition dengan webcam
-├── requirements.txt # Dependensi Python
-├── README.md # Deskripsi proyek
-│
-├── dataset/ # Dataset wajah (format: folder per orang)
-│ ├── Person1/
-│ ├── Person2/
-│ └── ...
-│
-├── encoded_faces/
-│ └── svm_model.pkl # Model SVM hasil pelatihan
-│
-└── evaluation_results/
-└── confusion_matrix.png # Hasil evaluasi visual berupa confusion matrix
+-│
+-├── preprocess_encode.py # Preprocessing data wajah dan menyimpan face encoding
+-├── train.py # Melatih model SVM
+-├── evaluated.py # Mengevaluasi model dengan data uji
+-├── real_time.py # Real-time face recognition dengan webcam
+-├── requirements.txt # Dependensi Python
+-├── README.md # Deskripsi proyek
+-│
+-├── dataset/ # Dataset wajah (format: folder per orang)
+-│ ├── Person1/
+-│ ├── Person2/
+-│ └── ...
+-│
+-├── encoded_faces/
+-│ └── svm_model.pkl # Model SVM hasil pelatihan
+-│
+-└── evaluation_results/
+-└── confusion_matrix.png # Hasil evaluasi visual berupa confusion matrix
 
 ---
 
@@ -76,7 +76,7 @@ Model yang telah dilatih disimpan dalam direktori `encoded_faces/svm_model.pkl` 
 Evaluasi dilakukan dengan menghitung akurasi dan menampilkan confusion matrix.  
 Berikut adalah hasil confusion matrix yang menunjukkan performa model pada data uji:
 Akurasi : 83%
-![Confusion Matrix](results/confusion_matrix.png)
+![Confusion Matrix](confusion_matrix.png)
 
 ---
 
@@ -87,5 +87,6 @@ Akurasi : 83%
    git clone https://github.com/username/nama-repo.git
    cd nama-repo
 atau
+2. Install library
 ```bash
 pip install -r requirements.txt
