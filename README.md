@@ -76,7 +76,7 @@ Model yang telah dilatih disimpan dalam direktori `encoded_faces/svm_model.pkl` 
 Evaluasi dilakukan dengan menghitung akurasi dan menampilkan confusion matrix.  
 Berikut adalah hasil confusion matrix yang menunjukkan performa model pada data uji:
 - Akurasi : 83%
-![Confusion Matrix](confusion_matrix.png)
+![Confusion Matrix](confusion_matrix3.png)
 
 ---
 
